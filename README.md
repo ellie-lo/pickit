@@ -1,24 +1,16 @@
-# pickit
+## 選吧專案
+* 猶豫吃甚麼的時候，可以點開選吧幫你決定
 
-## Project setup
-```
-npm install
-```
+### 使用技術與資源
+* 使用VUE3架站 + bootstrap5
+* npm install -g @vue/cli
+* 安裝Bootstrap套件指令
+* npm install bootstrap
+* npm install --save @popperjs/core
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 電容偵測網站
+* 選店家類型
+* 選食物類型
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 成果展示
+* https://ellie-lo.github.io/pickit/#/
