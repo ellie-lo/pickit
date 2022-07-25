@@ -5,11 +5,8 @@
     flex-direction: column;
 }
 .checkbox{
-    text-align: center;
     list-style: none;
-    display: flex;
-    flex-direction: row;
-   
+    padding-left: 0px;
     a{
         text-decoration: none;
         color: #fff;
@@ -17,17 +14,20 @@
     a:hover{
         color: $primaryColor;
     }
-    .checkbox-list{
-        border: 1px solid #000;
-        padding: 12px 36px;
-        border-radius: 3px;
-        font-size: 1.2rem;
-        color: #fff;
-        background-color: $secondaryColor;
+    li{
+        .checkboxlist{
+            border: 1px solid #000;
+            padding: 12px 36px;
+            border-radius: 3px;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+        .checkbox-list{
+            background-color: $secondaryColor;
+        }
+        .checkbox-list2{
+            background-color: $thirdaryColor;
+        }
     }
-    .checkbox-list2{
-        background-color: $thirdaryColor;
-    }
-   
     
 }
